@@ -35,6 +35,7 @@ $ pod install
 	<key>NSMicrophoneUsageDescription</key>
 	<string>App需要您的同意,才能访问麦克风</string>
   ```
+- 若提示'XJMapSDK/XJMapSDK.h' file not found的话，需要在Build Setting->Framework Search Paths中配置framework的路径（如demo工程中的路径可设置‘$(PROJECT_DIR)/../XJMapSDK’）
   
 ## 使用说明  
 
