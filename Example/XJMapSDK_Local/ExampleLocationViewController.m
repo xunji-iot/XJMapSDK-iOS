@@ -7,7 +7,7 @@
 //
 
 #import "ExampleLocationViewController.h"
-#import <XJMapSDK/XJMapSDK.h>
+#import <XJmapSDK/XJmapSDK.h>
 #import "APIKey.h"
 
 @interface ExampleLocationViewController ()<XJmapLocationDelegate>

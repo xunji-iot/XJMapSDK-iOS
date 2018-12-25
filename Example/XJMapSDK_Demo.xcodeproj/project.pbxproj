@@ -14,7 +14,36 @@
 		3F3C515C21D20E810045A9CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C515B21D20E810045A9CC /* main.m */; };
 		3F3C516521D212AE0045A9CC /* ExampleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C516421D212AE0045A9CC /* ExampleListViewController.m */; };
 		3F3C516B21D214380045A9CC /* ExampleLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C516A21D214380045A9CC /* ExampleLocationViewController.m */; };
+		3F3C517C21D235D70045A9CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C517B21D235D70045A9CC /* Assets.xcassets */; };
+		3F3C517F21D235D70045A9CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C517D21D235D70045A9CC /* LaunchScreen.storyboard */; };
+		3F3C518221D235D70045A9CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C518121D235D70045A9CC /* main.m */; };
+		3F3C518D21D236380045A9CC /* ExampleLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C518621D236370045A9CC /* ExampleLocationViewController.m */; };
+		3F3C518E21D236380045A9CC /* ExampleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C518821D236380045A9CC /* ExampleListViewController.m */; };
+		3F3C518F21D236380045A9CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C518C21D236380045A9CC /* AppDelegate.m */; };
+		3F3C519721D236C60045A9CC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3C519621D236C60045A9CC /* Security.framework */; };
+		3F3C519921D236D30045A9CC /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3C519821D236D30045A9CC /* libc++.tbd */; };
+		3F3C519B21D236DD0045A9CC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3C519A21D236DD0045A9CC /* CoreTelephony.framework */; };
+		3F3C519D21D236E80045A9CC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3C519C21D236E80045A9CC /* libz.tbd */; };
+		3F3C519F21D236F10045A9CC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3C519E21D236F10045A9CC /* SystemConfiguration.framework */; };
+		3F3C51A121D236F80045A9CC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3C51A021D236F80045A9CC /* CFNetwork.framework */; };
+		3F3C51A321D237030045A9CC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3C51A221D237030045A9CC /* libsqlite3.tbd */; };
+		3F3C51A421D237FD0045A9CC /* XJMapSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3C519121D236B30045A9CC /* XJMapSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3F3C51A521D238100045A9CC /* XJMapSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3C519121D236B30045A9CC /* XJMapSDK.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3F3C519521D236BA0045A9CC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3F3C51A421D237FD0045A9CC /* XJMapSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3F3C514921D20E800045A9CC /* XJMapSDK_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XJMapSDK_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +58,26 @@
 		3F3C516421D212AE0045A9CC /* ExampleListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleListViewController.m; sourceTree = "<group>"; };
 		3F3C516921D214380045A9CC /* ExampleLocationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleLocationViewController.h; sourceTree = "<group>"; };
 		3F3C516A21D214380045A9CC /* ExampleLocationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleLocationViewController.m; sourceTree = "<group>"; };
+		3F3C517021D235D50045A9CC /* XJMapSDK_Local.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XJMapSDK_Local.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3C517B21D235D70045A9CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F3C517E21D235D70045A9CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F3C518021D235D70045A9CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F3C518121D235D70045A9CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F3C518621D236370045A9CC /* ExampleLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleLocationViewController.m; sourceTree = "<group>"; };
+		3F3C518721D236370045A9CC /* ExampleListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleListViewController.h; sourceTree = "<group>"; };
+		3F3C518821D236380045A9CC /* ExampleListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleListViewController.m; sourceTree = "<group>"; };
+		3F3C518921D236380045A9CC /* APIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIKey.h; sourceTree = "<group>"; };
+		3F3C518A21D236380045A9CC /* ExampleLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleLocationViewController.h; sourceTree = "<group>"; };
+		3F3C518B21D236380045A9CC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F3C518C21D236380045A9CC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F3C519121D236B30045A9CC /* XJMapSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XJMapSDK.framework; sourceTree = "<group>"; };
+		3F3C519621D236C60045A9CC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3F3C519821D236D30045A9CC /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		3F3C519A21D236DD0045A9CC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		3F3C519C21D236E80045A9CC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		3F3C519E21D236F10045A9CC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3F3C51A021D236F80045A9CC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3F3C51A221D237030045A9CC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		455C2BD97E3A3CDF06252D8E /* Pods-XJMapSDK_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJMapSDK_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-XJMapSDK_Demo/Pods-XJMapSDK_Demo.release.xcconfig"; sourceTree = "<group>"; };
 		68333DBE16AA5F793F4DABF0 /* Pods-XJMapSDK_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJMapSDK_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XJMapSDK_Demo/Pods-XJMapSDK_Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		72CB8F882914E4D4F8BCFE73 /* libPods-XJMapSDK_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XJMapSDK_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +92,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3F3C516D21D235D50045A9CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3C51A321D237030045A9CC /* libsqlite3.tbd in Frameworks */,
+				3F3C51A121D236F80045A9CC /* CFNetwork.framework in Frameworks */,
+				3F3C519F21D236F10045A9CC /* SystemConfiguration.framework in Frameworks */,
+				3F3C519D21D236E80045A9CC /* libz.tbd in Frameworks */,
+				3F3C519B21D236DD0045A9CC /* CoreTelephony.framework in Frameworks */,
+				3F3C519921D236D30045A9CC /* libc++.tbd in Frameworks */,
+				3F3C519721D236C60045A9CC /* Security.framework in Frameworks */,
+				3F3C51A521D238100045A9CC /* XJMapSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -50,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				3F3C514B21D20E800045A9CC /* XJMapSDK_Demo */,
+				3F3C517121D235D50045A9CC /* XJMapSDK_Local */,
 				3F3C514A21D20E800045A9CC /* Products */,
 				935453FDFE122A86695FD053 /* Pods */,
 				8BC18EF3D61886AD0852E917 /* Frameworks */,
@@ -60,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				3F3C514921D20E800045A9CC /* XJMapSDK_Demo.app */,
+				3F3C517021D235D50045A9CC /* XJMapSDK_Local.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,9 +148,44 @@
 			path = XJMapSDK_Demo;
 			sourceTree = "<group>";
 		};
+		3F3C517121D235D50045A9CC /* XJMapSDK_Local */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C519021D236B30045A9CC /* XJMapSDK */,
+				3F3C518921D236380045A9CC /* APIKey.h */,
+				3F3C518B21D236380045A9CC /* AppDelegate.h */,
+				3F3C518C21D236380045A9CC /* AppDelegate.m */,
+				3F3C518721D236370045A9CC /* ExampleListViewController.h */,
+				3F3C518821D236380045A9CC /* ExampleListViewController.m */,
+				3F3C518A21D236380045A9CC /* ExampleLocationViewController.h */,
+				3F3C518621D236370045A9CC /* ExampleLocationViewController.m */,
+				3F3C517B21D235D70045A9CC /* Assets.xcassets */,
+				3F3C517D21D235D70045A9CC /* LaunchScreen.storyboard */,
+				3F3C518021D235D70045A9CC /* Info.plist */,
+				3F3C518121D235D70045A9CC /* main.m */,
+			);
+			path = XJMapSDK_Local;
+			sourceTree = "<group>";
+		};
+		3F3C519021D236B30045A9CC /* XJMapSDK */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C519121D236B30045A9CC /* XJMapSDK.framework */,
+			);
+			name = XJMapSDK;
+			path = ../../XJMapSDK;
+			sourceTree = "<group>";
+		};
 		8BC18EF3D61886AD0852E917 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3F3C51A221D237030045A9CC /* libsqlite3.tbd */,
+				3F3C51A021D236F80045A9CC /* CFNetwork.framework */,
+				3F3C519E21D236F10045A9CC /* SystemConfiguration.framework */,
+				3F3C519C21D236E80045A9CC /* libz.tbd */,
+				3F3C519A21D236DD0045A9CC /* CoreTelephony.framework */,
+				3F3C519821D236D30045A9CC /* libc++.tbd */,
+				3F3C519621D236C60045A9CC /* Security.framework */,
 				72CB8F882914E4D4F8BCFE73 /* libPods-XJMapSDK_Demo.a */,
 			);
 			name = Frameworks;
@@ -121,6 +222,24 @@
 			productReference = 3F3C514921D20E800045A9CC /* XJMapSDK_Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		3F3C516F21D235D50045A9CC /* XJMapSDK_Local */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F3C518521D235D70045A9CC /* Build configuration list for PBXNativeTarget "XJMapSDK_Local" */;
+			buildPhases = (
+				3F3C516C21D235D50045A9CC /* Sources */,
+				3F3C516D21D235D50045A9CC /* Frameworks */,
+				3F3C516E21D235D50045A9CC /* Resources */,
+				3F3C519521D236BA0045A9CC /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XJMapSDK_Local;
+			productName = XJMapSDK_Local;
+			productReference = 3F3C517021D235D50045A9CC /* XJMapSDK_Local.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -131,6 +250,9 @@
 				ORGANIZATIONNAME = xunji;
 				TargetAttributes = {
 					3F3C514821D20E800045A9CC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3F3C516F21D235D50045A9CC = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -149,6 +271,7 @@
 			projectRoot = "";
 			targets = (
 				3F3C514821D20E800045A9CC /* XJMapSDK_Demo */,
+				3F3C516F21D235D50045A9CC /* XJMapSDK_Local */,
 			);
 		};
 /* End PBXProject section */
@@ -160,6 +283,15 @@
 			files = (
 				3F3C515921D20E810045A9CC /* LaunchScreen.storyboard in Resources */,
 				3F3C515621D20E810045A9CC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3C516E21D235D50045A9CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3C517F21D235D70045A9CC /* LaunchScreen.storyboard in Resources */,
+				3F3C517C21D235D70045A9CC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +348,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3F3C516C21D235D50045A9CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3C518F21D236380045A9CC /* AppDelegate.m in Sources */,
+				3F3C518D21D236380045A9CC /* ExampleLocationViewController.m in Sources */,
+				3F3C518E21D236380045A9CC /* ExampleListViewController.m in Sources */,
+				3F3C518221D235D70045A9CC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -223,6 +366,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				3F3C515821D20E810045A9CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3F3C517D21D235D70045A9CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F3C517E21D235D70045A9CC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -349,6 +500,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G3KRMQC7T9;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = XJMapSDK_Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -367,7 +519,46 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G3KRMQC7T9;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = XJMapSDK_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xunji.xjmapsdk.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F3C518321D235D70045A9CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3KRMQC7T9;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../XJMapSDK";
+				INFOPLIST_FILE = XJMapSDK_Local/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xunji.xjmapsdk.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F3C518421D235D70045A9CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3KRMQC7T9;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../XJMapSDK";
+				INFOPLIST_FILE = XJMapSDK_Local/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -395,6 +586,15 @@
 			buildConfigurations = (
 				3F3C516021D20E810045A9CC /* Debug */,
 				3F3C516121D20E810045A9CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F3C518521D235D70045A9CC /* Build configuration list for PBXNativeTarget "XJMapSDK_Local" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3C518321D235D70045A9CC /* Debug */,
+				3F3C518421D235D70045A9CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
