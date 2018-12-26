@@ -29,6 +29,20 @@
 		3F3C51A321D237030045A9CC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3C51A221D237030045A9CC /* libsqlite3.tbd */; };
 		3F3C51A421D237FD0045A9CC /* XJMapSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3C519121D236B30045A9CC /* XJMapSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3F3C51A521D238100045A9CC /* XJMapSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3C519121D236B30045A9CC /* XJMapSDK.framework */; };
+		3F3C51B621D262B50045A9CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C51B521D262B50045A9CC /* Assets.xcassets */; };
+		3F3C51B921D262B50045A9CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C51B721D262B50045A9CC /* LaunchScreen.storyboard */; };
+		3F3C51BC21D262B50045A9CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C51BB21D262B50045A9CC /* main.m */; };
+		3F3C51C721D263170045A9CC /* ExampleLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C51C021D263160045A9CC /* ExampleLocationViewController.m */; };
+		3F3C51C821D263170045A9CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C51C121D263160045A9CC /* AppDelegate.m */; };
+		3F3C51C921D263170045A9CC /* ExampleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C51C321D263160045A9CC /* ExampleListViewController.m */; };
+		3F3C51CA21D35FBA0045A9CC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3C51A221D237030045A9CC /* libsqlite3.tbd */; };
+		3F3C51CB21D35FBF0045A9CC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3C51A021D236F80045A9CC /* CFNetwork.framework */; };
+		3F3C51CC21D35FC40045A9CC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3C519E21D236F10045A9CC /* SystemConfiguration.framework */; };
+		3F3C51CD21D35FCA0045A9CC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3C519C21D236E80045A9CC /* libz.tbd */; };
+		3F3C51CE21D35FD50045A9CC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3C519A21D236DD0045A9CC /* CoreTelephony.framework */; };
+		3F3C51CF21D35FDD0045A9CC /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3C519821D236D30045A9CC /* libc++.tbd */; };
+		3F3C51D021D35FE10045A9CC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3C519621D236C60045A9CC /* Security.framework */; };
+		3F3C51D221D360090045A9CC /* XJMapSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3C51D121D360090045A9CC /* XJMapSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -78,6 +92,19 @@
 		3F3C519E21D236F10045A9CC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		3F3C51A021D236F80045A9CC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		3F3C51A221D237030045A9CC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		3F3C51AA21D262B40045A9CC /* XJMapSDK_Carthage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XJMapSDK_Carthage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3C51B521D262B50045A9CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F3C51B821D262B50045A9CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F3C51BA21D262B50045A9CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F3C51BB21D262B50045A9CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F3C51C021D263160045A9CC /* ExampleLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleLocationViewController.m; sourceTree = "<group>"; };
+		3F3C51C121D263160045A9CC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F3C51C221D263160045A9CC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F3C51C321D263160045A9CC /* ExampleListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleListViewController.m; sourceTree = "<group>"; };
+		3F3C51C421D263160045A9CC /* APIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIKey.h; sourceTree = "<group>"; };
+		3F3C51C521D263170045A9CC /* ExampleLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleLocationViewController.h; sourceTree = "<group>"; };
+		3F3C51C621D263170045A9CC /* ExampleListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleListViewController.h; sourceTree = "<group>"; };
+		3F3C51D121D360090045A9CC /* XJMapSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XJMapSDK.framework; path = Carthage/Build/iOS/XJMapSDK.framework; sourceTree = "<group>"; };
 		455C2BD97E3A3CDF06252D8E /* Pods-XJMapSDK_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJMapSDK_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-XJMapSDK_Demo/Pods-XJMapSDK_Demo.release.xcconfig"; sourceTree = "<group>"; };
 		68333DBE16AA5F793F4DABF0 /* Pods-XJMapSDK_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJMapSDK_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XJMapSDK_Demo/Pods-XJMapSDK_Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		72CB8F882914E4D4F8BCFE73 /* libPods-XJMapSDK_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XJMapSDK_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +134,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3F3C51A721D262B40045A9CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3C51D221D360090045A9CC /* XJMapSDK.framework in Frameworks */,
+				3F3C51D021D35FE10045A9CC /* Security.framework in Frameworks */,
+				3F3C51CF21D35FDD0045A9CC /* libc++.tbd in Frameworks */,
+				3F3C51CE21D35FD50045A9CC /* CoreTelephony.framework in Frameworks */,
+				3F3C51CD21D35FCA0045A9CC /* libz.tbd in Frameworks */,
+				3F3C51CC21D35FC40045A9CC /* SystemConfiguration.framework in Frameworks */,
+				3F3C51CB21D35FBF0045A9CC /* CFNetwork.framework in Frameworks */,
+				3F3C51CA21D35FBA0045A9CC /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -115,6 +157,7 @@
 			children = (
 				3F3C514B21D20E800045A9CC /* XJMapSDK_Demo */,
 				3F3C517121D235D50045A9CC /* XJMapSDK_Local */,
+				3F3C51AB21D262B40045A9CC /* XJMapSDK_Carthage */,
 				3F3C514A21D20E800045A9CC /* Products */,
 				935453FDFE122A86695FD053 /* Pods */,
 				8BC18EF3D61886AD0852E917 /* Frameworks */,
@@ -126,6 +169,7 @@
 			children = (
 				3F3C514921D20E800045A9CC /* XJMapSDK_Demo.app */,
 				3F3C517021D235D50045A9CC /* XJMapSDK_Local.app */,
+				3F3C51AA21D262B40045A9CC /* XJMapSDK_Carthage.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -176,9 +220,28 @@
 			path = ../../XJMapSDK;
 			sourceTree = "<group>";
 		};
+		3F3C51AB21D262B40045A9CC /* XJMapSDK_Carthage */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C51C421D263160045A9CC /* APIKey.h */,
+				3F3C51C221D263160045A9CC /* AppDelegate.h */,
+				3F3C51C121D263160045A9CC /* AppDelegate.m */,
+				3F3C51C621D263170045A9CC /* ExampleListViewController.h */,
+				3F3C51C321D263160045A9CC /* ExampleListViewController.m */,
+				3F3C51C521D263170045A9CC /* ExampleLocationViewController.h */,
+				3F3C51C021D263160045A9CC /* ExampleLocationViewController.m */,
+				3F3C51B521D262B50045A9CC /* Assets.xcassets */,
+				3F3C51B721D262B50045A9CC /* LaunchScreen.storyboard */,
+				3F3C51BA21D262B50045A9CC /* Info.plist */,
+				3F3C51BB21D262B50045A9CC /* main.m */,
+			);
+			path = XJMapSDK_Carthage;
+			sourceTree = "<group>";
+		};
 		8BC18EF3D61886AD0852E917 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3F3C51D121D360090045A9CC /* XJMapSDK.framework */,
 				3F3C51A221D237030045A9CC /* libsqlite3.tbd */,
 				3F3C51A021D236F80045A9CC /* CFNetwork.framework */,
 				3F3C519E21D236F10045A9CC /* SystemConfiguration.framework */,
@@ -240,6 +303,24 @@
 			productReference = 3F3C517021D235D50045A9CC /* XJMapSDK_Local.app */;
 			productType = "com.apple.product-type.application";
 		};
+		3F3C51A921D262B40045A9CC /* XJMapSDK_Carthage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F3C51BD21D262B50045A9CC /* Build configuration list for PBXNativeTarget "XJMapSDK_Carthage" */;
+			buildPhases = (
+				3F3C51A621D262B40045A9CC /* Sources */,
+				3F3C51A721D262B40045A9CC /* Frameworks */,
+				3F3C51A821D262B40045A9CC /* Resources */,
+				3F3C51D321D360190045A9CC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XJMapSDK_Carthage;
+			productName = XJMapSDK_Carthage;
+			productReference = 3F3C51AA21D262B40045A9CC /* XJMapSDK_Carthage.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -253,6 +334,9 @@
 						CreatedOnToolsVersion = 10.1;
 					};
 					3F3C516F21D235D50045A9CC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3F3C51A921D262B40045A9CC = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -272,6 +356,7 @@
 			targets = (
 				3F3C514821D20E800045A9CC /* XJMapSDK_Demo */,
 				3F3C516F21D235D50045A9CC /* XJMapSDK_Local */,
+				3F3C51A921D262B40045A9CC /* XJMapSDK_Carthage */,
 			);
 		};
 /* End PBXProject section */
@@ -292,6 +377,15 @@
 			files = (
 				3F3C517F21D235D70045A9CC /* LaunchScreen.storyboard in Resources */,
 				3F3C517C21D235D70045A9CC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3C51A821D262B40045A9CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3C51B921D262B50045A9CC /* LaunchScreen.storyboard in Resources */,
+				3F3C51B621D262B50045A9CC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +428,25 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XJMapSDK_Demo/Pods-XJMapSDK_Demo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		3F3C51D321D360190045A9CC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)//Carthage/Build/iOS/XJMapSDK.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/XJMapSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -359,6 +472,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3F3C51A621D262B40045A9CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3C51C721D263170045A9CC /* ExampleLocationViewController.m in Sources */,
+				3F3C51C921D263170045A9CC /* ExampleListViewController.m in Sources */,
+				3F3C51BC21D262B50045A9CC /* main.m in Sources */,
+				3F3C51C821D263170045A9CC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -374,6 +498,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				3F3C517E21D235D70045A9CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3F3C51B721D262B50045A9CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F3C51B821D262B50045A9CC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -569,6 +701,50 @@
 			};
 			name = Release;
 		};
+		3F3C51BE21D262B50045A9CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3KRMQC7T9;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = XJMapSDK_Carthage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xunji.XJMapSDK-Carthage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F3C51BF21D262B50045A9CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3KRMQC7T9;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = XJMapSDK_Carthage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xunji.XJMapSDK-Carthage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -595,6 +771,15 @@
 			buildConfigurations = (
 				3F3C518321D235D70045A9CC /* Debug */,
 				3F3C518421D235D70045A9CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F3C51BD21D262B50045A9CC /* Build configuration list for PBXNativeTarget "XJMapSDK_Carthage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3C51BE21D262B50045A9CC /* Debug */,
+				3F3C51BF21D262B50045A9CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

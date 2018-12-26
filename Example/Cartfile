@@ -1,0 +1,2 @@
+#binary "https://raw.githubusercontent.com/xunji-iot/XJMapSDK-iOS/master/release/XJMapSDK.framework.json" ~>1.0.0
+binary "../release/XJMapSDK.json" ~>1.0.0
